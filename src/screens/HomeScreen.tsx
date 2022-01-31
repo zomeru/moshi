@@ -3,8 +3,16 @@ import { View, Text, StyleSheet, Image, Dimensions } from 'react-native';
 
 export const HomeScreen = () => {
   return (
-    <View>
-      <Text>Home Screen</Text>
+    <View style={styles.container}>
+      <View style={styles.navigation}>
+        <Text>Navigation</Text>
+      </View>
+      <View style={styles.body}>
+        <Text>Home Screen</Text>
+      </View>
+      <View style={styles.footer}>
+        <Text>Footer</Text>
+      </View>
     </View>
   );
 };
